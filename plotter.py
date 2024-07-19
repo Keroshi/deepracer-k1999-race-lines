@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Load the track and race line data
 track = np.load("tracks/2022_april_pro.npy")
-race_line = np.load("racelines/2022_april_pro-1000-4-2024-07-14-193715.npy")
+race_line = np.load("racelines/2022_april_pro-1000-4-2024-07-19-081158.npy")
 
 # Extract x and y coordinates for left, center, and right lanes from the track data
 x_coords = track[:, [0, 2, 4]].flatten()
